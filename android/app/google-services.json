@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "723597685206",
+    "project_id": "chatapp-eead0",
+    "storage_bucket": "chatapp-eead0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723597685206:android:ee3fa6c6a5d7530e71f477",
+        "android_client_info": {
+          "package_name": "com.example.baatein"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzGP5lkCsBDEmElhoicoP0TPeE4VyPsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

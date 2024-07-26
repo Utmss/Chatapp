@@ -44,7 +44,7 @@ if(password != null && password == confirmpassword){
      await sharedpreferencehelper().saveuserdisplayname(namecontoller.text);
      await sharedpreferencehelper().saveuseremail(mailcontoller.text);
      await sharedpreferencehelper().saveuserpic("https://firebasestorage.googleapis.com/v0/b/foodie-5dfeb.appspot.com/o/blogimages%2Fr61012a850?alt=media&token=3e361ca8-4aab-485e-905c-9b6465ea0c51");
-     await sharedpreferencehelper().saveusername(mailcontoller.text.replaceAll("@gmail.com", ""),);
+     await sharedpreferencehelper().saveusername(mailcontoller.text.replaceAll("@gmail.com", "").toLowerCase(),);
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text("Registered Succesfully",style: TextStyle(color: Color(0xFf7f30fe),fontSize: 20,fontWeight: FontWeight.bold),)));
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Home()));
